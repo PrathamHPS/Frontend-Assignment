@@ -1,0 +1,12 @@
+﻿Layout Assignments
+        •        Basic 2 column layout
+        •        Basic 2 row layout
+        •        2 column layout with header and footer
+        •        2 column layout with fixed header and footer
+        •        2 column layout with fixed header, footer and nav
+        •        3 column layout
+
+
+
+
+Put boxes of different colours to identify them separately.

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Basic 2 column layout</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body{
+      margin: 5px
+    }
+  .header{
+    padding: 20px;
+    text-align: center;
+    background-color:grey;
+    border-radius: 10px;
+  }
+  .footer{
+    clear: left;
+    padding: 0px;
+    text-align: center;
+    background-color:grey;
+    border-radius: 20px;
+  }
+
+  . nav{
+    overflow: hidden;
+  }
+      .nav a {
+
+      display: block;
+      color: white;
+      text-align: center ;
+      padding: 14px 16px;
+    }
+    .nav a:hover{
+      background-color:blue;
+
+    }
+
+    .column {
+      float: left;
+      width: 50%;  /* for 2 column */
+      padding: 10px;
+      height: 500px;
+      border-radius: 10px;
+      color: white;
+    }
+  </style>
+</head>
+
+
+<body>
+  <div class="header">
+  <h1>Header</h1>
+  </div>
+
+  <div class="nav" style="background-color:green; border-radius: 10px;">
+    <a href="https://www.youtube.com/">YouTube</a>
+
+  </div>
+
+    <div class="column" style="background-color:orange;">
+      <h1>First Column</h1>
+      <p>This is fisrt column</p>
+    </div>
+    <div class="column" style="background-color:tomato;">
+      <h1>Second Column</h1>
+      <p>This is second column</p>
+    </div>
+
+  <div class="footer">
+  <h1>Footer</h1>
+  </div>
+
+</body>
+
+</html>
