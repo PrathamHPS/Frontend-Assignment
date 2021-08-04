@@ -1,10 +1,16 @@
 body{
-  margin: 15px;
-  background-color: #FFE5B4;
-}
 
+  margin-left: 100px;
+  margin-right: 100px;
+  background-color: pearl;
+}
+  .container{
+    background-color: whitesmoke;
+    padding: 5px 25px 5px 25px;
+
+  }
   .header {
-    color: #492000;
+    color: #26b4b9;
     border-bottom: 2px solid ;
      }
 
@@ -38,5 +44,5 @@ body{
 
      .footer{
        color: #492000;
-       border-top:  2px solid ;
+       border-top:  2px solid #26b4b9;
      }
