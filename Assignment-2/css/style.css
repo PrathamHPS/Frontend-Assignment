@@ -1,11 +1,13 @@
-body{
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;400&display=swap');
 
+body{
+  font-family: "Poppins",sans-serif;
   margin-left: 100px;
   margin-right: 100px;
-  background-color: whitesmoke;
+  background-color: #dce6ee;
 }
   .container{
-    background-color: rgba(255,255,248,1);
+    background-color: #ffffff;
     padding: 5px 25px 5px 25px;
 
   }
@@ -20,12 +22,12 @@ body{
        object-fit : cover;
      }
 
-     .topic {
-       color: #493000;
+     .topic h2{
+       color: #404040;
       }
 
-      .list {
-      color: #493000;
+      .conta {
+      color: #404030;
 
       }
 
@@ -37,12 +39,12 @@ body{
 
     .footer a{
       float: right;
-      color: #493000;
+      color: #404040;
       display: flex;
       text-align: right ;
      }
 
      .footer{
-       color: #493000;
+       color: #404040;
        border-top:  2px solid #26b4b9;
      }
