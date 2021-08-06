@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
 
 body {
   background-image: url("../images/bg_main.png");
@@ -12,6 +13,7 @@ body {
   position: fixed;
   top : 0;
   left : 0;
+  font-family: 'Dosis', sans-serif;
 }
 
 .child-nav{
@@ -29,6 +31,7 @@ body {
 
 .child-nav a{
   text-decoration: none;
+  padding: 2px 2px 2px 2px;
   color: white;
 }
 
@@ -44,23 +47,38 @@ body {
 
 .child-nav a:hover {
     text-decoration: none;
-    transition: 0.75s;
-    padding: 3px;
+    transition: 0.5s;
     background-color: black;
     color: white;
-    border-radius: 40px;
+    border-radius: 5px;
 }
 
 .content{
   margin-left: 250px;
   margin-top: 100px;
+  margin-right: 150px;
+  font-family: 'Dosis', sans-serif;
+}
+
+#welcome{
+  margin-bottom: 0px;
+  font-size: 60px;
+}
+#text1{
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .border{
   border-bottom: 2px solid gold;
-  font-size: 25px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  font-family: 'Times New Roman', Times, serif;
   border-top: 2px solid gold;
+}
+
+#about{
+  font-size: 10px;
+  font-weight: bold;
 }
 
 .footer{
@@ -68,8 +86,9 @@ body {
   position: fixed;
 }
 .footer p{
+  color: white;
   font-size: 10px;
-  margin-left: 20px;
+  margin-left: 25px;
 }
 .footer span{
   color: gold;
