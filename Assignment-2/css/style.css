@@ -23,11 +23,11 @@ body{
      }
 
      .topic h2{
-       color: #404040;
+       color: #606060;
       }
 
-      .conta {
-      color: #404030;
+      .container {
+      color: #606060;
 
       }
 
@@ -39,12 +39,12 @@ body{
 
     .footer a{
       float: right;
-      color: #404040;
+      color: #606060;
       display: flex;
       text-align: right ;
      }
 
      .footer{
-       color: #404040;
+       color: #606060;
        border-top:  2px solid #26b4b9;
      }
