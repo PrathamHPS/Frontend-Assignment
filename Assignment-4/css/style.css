@@ -249,3 +249,26 @@ body{
         border: 1.25px solid #ddd;
         border-radius: 0 20px 20px 0;
 }
+.footer{
+          display: inline-flex;
+          width: 100%;
+          margin: 10px 0 10px 0;
+}
+.footer-img-1{
+          margin: 0 auto 0 0;
+}
+.footer-text{
+      margin: 0 20px 0 auto;
+      display: flex;
+
+}
+.text{
+      font-size: 15px;
+      color: white;
+      padding: 0 10px 0 10px;
+      background-color: #0494cc;
+      width: 250px;
+      height: 50px;
+      border: .25px solid #0494cc;
+      border-radius: 5px;
+}
