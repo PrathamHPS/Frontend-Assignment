@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Georama:wght@300;400&display=swap');
 
+
 body{
       width: 100%;
-      margin: 0;
+      color: #444;
       font-family: 'Georama', sans-serif;
+      margin: 0;
+      padding: 0;
 }
 
 .header{
@@ -97,4 +100,152 @@ body{
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
+}
+.parent{
+        width: 100%;
+        display: inline-flex;
+        margin: 0;
+        border-bottom:  1.5px solid #ddd;
+}
+.sibling-1{
+        margin: 10px;
+        max-width: 200px;
+        max-height: 126px;
+        border: 1.5px solid #ddd;
+}
+.sibling-2{
+        margin: 10px 30px 10px 10px;
+}
+.sibling-2 h2{
+        margin: 0px;
+}
+
+.attachment{
+        display: flex;
+        margin-top: 0px;
+        border: 1.5px solid #ddd;
+        width: 65px;
+}
+.attachment img{
+        margin-left: 10px;
+        margin-right: 10px;
+        object-fit: cover;
+
+}
+.sibling-3{
+        margin: 10px;
+}
+.sibling-3 h3{
+        margin-bottom: 5px;
+        margin-top: 5px;
+}
+.sibling-4{
+        margin: auto 10px auto 30px;
+}
+.allcolor{
+        display: inline-flex;
+        max-width: 300px;
+        max-height: 45px;
+        text-align: center;
+        color: #ffffff;
+}
+.green-1{
+        background-image: url("../Images/green-color.jpg");
+        width: 50px;
+        height: 20px;
+        border: 1.25px solid #ddd;
+        border-radius: 20px 0 0 20px;
+}
+.orange-1{
+        background-image: url("../Images/orange-color.jpg");
+        width: 50px;
+        height: 20px;
+        border: 1.25px solid #ddd;
+}
+.red-1{
+        /* background-image: url("img/red-color.jpg"); */
+        width: 50px;
+        height: 20px;
+        border: 1.25px solid #ddd;
+        border-radius: 0 20px 20px 0;
+}
+.green-2{
+        background-image: url("../Images/green-color.jpg");
+        width: 50px;
+        height: 20px;
+        border: 1.25px solid #ddd;
+        border-radius: 20px 0 0 20px;
+}
+.orange-2{
+        background-image: url("../Images/orange-color.jpg");
+        width: 50px;
+        height: 20px;
+        border: 1.25px solid #ddd;
+}
+.red-2{
+        background-image: url("../Images/red-color.jpg");
+        width: 50px;
+        height: 20px;
+        border: 1.25px solid #ddd;
+        border-radius: 0 20px 20px 0;
+}
+.green-3{
+        background-image: url("../Images/green-color.jpg");
+        width: 50px;
+        height: 20px;
+        border: 1.25px solid #ddd;
+        border-radius: 20px 0 0 20px;
+}
+.orange-3{
+        background-image: url("../Images/orange-color.jpg");
+        width: 50px;
+        height: 20px;
+        border: 1.25px solid #ddd;
+}
+.red-3{
+        background-image: url("../Images/red-color.jpg");
+        width: 50px;
+        height: 20px;
+        border: 1.25px solid #ddd;
+        border-radius: 0 20px 20px 0;
+}
+.green-4{
+        background-image: url("../Images/green-color.jpg");
+        width: 50px;
+        height: 20px;
+        border: 1.25px solid #ddd;
+        border-radius: 20px 0 0 20px;
+}
+.orange-4{
+        /* background-image: url("img/orange-color.jpg"); */
+        width: 50px;
+        height: 20px;
+        border: 1.25px solid #ddd;
+}
+.red-4{
+        /* background-image: url("img/red-color.jpg"); */
+        width: 50px;
+        height: 20px;
+        border: 1.25px solid #ddd;
+        border-radius: 0 20px 20px 0;
+}
+.green-5{
+        background-image: url("../Images/green-color.jpg");
+        width: 50px;
+        height: 20px;
+        border: 1.25px solid #ddd;
+        border-radius: 20px 0 0 20px;
+}
+.orange-5{
+        background-image: url("../Images/orange-color.jpg");
+        width: 50px;
+        height: 20px;
+        border: 1.25px solid #ddd;
+}
+.red-5{
+        background-image: url("../Images/red-color.jpg");
+        width: 50px;
+        height: 20px;
+        border: 1.25px solid #ddd;
+        border-radius: 0 20px 20px 0;
 }
