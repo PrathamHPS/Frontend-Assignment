@@ -1,16 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap');
 
 body{
+
   font-family: 'Source Sans Pro', sans-serif;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin: 0;
   background-color: #dce6ee;
 }
+
+  .background{
+    padding: 0% 20%;
+  }
+
   .container{
     background-color: #ffffff;
     padding: 5px 25px 5px 25px;
+    }
 
-  }
   .header {
     color: #26b4b9;
     border-bottom: 2px solid ;
@@ -23,15 +28,16 @@ body{
      }
 
      .topic h2{
-       color: #606060;
-      }
+       color: #606060; }
 
       .container {
-      color: #606060;
+      color: #606060;;
 
       }
-
-    .list .img img{
+  ul{
+    padding: 15px;
+  }
+  .list img{
 
       max-width: 250px;
       padding-right: 15px;
@@ -39,12 +45,12 @@ body{
 
     .footer a{
       float: right;
-      color: #606060;
+      color: #606060;;
       display: flex;
       text-align: right ;
      }
 
      .footer{
-       color: #606060;
+       color: #606060;;
        border-top:  2px solid #26b4b9;
      }
