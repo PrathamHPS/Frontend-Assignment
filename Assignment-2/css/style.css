@@ -8,11 +8,12 @@ body{
 }
 
   .background{
-    padding: 0% 20%;
+    padding: 0% 22%;
   }
 
   .container{
     background-color: #ffffff;
+    min-width: 450px;
     padding: 5px 25px 5px 25px;
     }
 
@@ -42,7 +43,7 @@ body{
   }
   .list img{
 
-      max-width: 250px;
+      max-width: 225px;
       padding-right: 15px;
       padding-top: 15px;
     }
@@ -55,8 +56,8 @@ body{
      }
 
      .footer{
-       width: 100%;
        padding: 10px 0px;
+       width: 100%;
        color: #606060;
        border-top:  2px solid #26b4b9;
      }
