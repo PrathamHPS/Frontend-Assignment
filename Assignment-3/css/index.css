@@ -6,9 +6,8 @@ body{
       padding: 0;
       width: 100%;
       height: 100%;
-
-
 }
+
 .parent{
     margin: 0;
     padding: 0;
@@ -16,8 +15,8 @@ body{
 }
 .child-1{
 
-    background-image: url("/images/10.png");
-    width: 20%;
+    background-image: url("../images/10.png");
+    width: 25%;
     min-width: 275px;
     height: 100vh;
     background-color: #333333;
@@ -65,7 +64,7 @@ body{
 }
 
 
-.navbar a:hover {
+.navbar .section:hover a{
 
       text-decoration: none;
       transition: 0.5s;
@@ -76,29 +75,28 @@ body{
 .footer{
         color: white;
         margin-bottom: 20px;
+        font-size: 12px;
+        font-weight: 550;
+        text-align: center;
+        text-transform: uppercase;
 }
 
-.footer p{
-    font-size: 12px;
-    font-weight: 550;
-    text-align: center;
-}
 
 .footer span{
-color: rgb(235, 202, 16);
+      color: rgb(235, 202, 16);
+      text-transform: lowercase;
+      text-transform: capitalize;
+
 }
 
 .child-2{
-    background-image: url("/images/bg_main.png");
-    width: 80%;
+    background-image: url("../images/bg_main.png");
+    width: 75%;
     min-width: 900px;
     background-color: #ffffff;
+    padding: 150px 250px 150px 100px;
 }
 
-.main {
-    margin: 15% 15% 0 5%;
-
-}
 
 h1 {
     margin: 0px;
@@ -123,12 +121,8 @@ h2 {
     font-family   : 'Times New Roman', Times, serif;
     border-top:  4px solid gold;
     border-bottom:  4px solid gold;
-
-
 }
 .about {
     font-size  : 12px;
     font-family: 'Dosis', sans-serif;
-
-
 }
