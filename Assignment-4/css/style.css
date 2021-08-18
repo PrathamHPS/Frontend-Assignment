@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Georama:wght@300;400&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
 
 body{
       width: 100%;
@@ -13,15 +13,16 @@ body{
       width: 100%;
       height: 50px;
       display: inline-flex;
+      justify-content: space-between;
       background-image: url("../Images/hdr-navi.jpg");
 }
 
 .header-logo-1{
       padding: 5px;
 }
-.header-logo-2{
+/* .header-logo-2{
       margin: 0 auto 0 auto;
-}
+} */
 .header-logo-3{
       padding: 5px;
 }
@@ -50,20 +51,20 @@ body{
       font-size: 2rem;
 }
 .data-1{
-      padding: 0 35px 10px 20px;
+      padding: 10px 35px 10px 20px;
       border: 1px solid #ddd;
       border-radius: 8px 0 0 8px;
 }
 .data-2{
-      padding: 0 35px 10px 20px;
+      padding: 10px 35px 10px 20px;
       border: 1px solid #ddd;
 }
 .data-3{
-      padding: 0 35px 10px 20px;
+      padding: 10px 35px 10px 20px;
       border: 1px solid #ddd;
 }
 .data-4{
-      padding: 0 35px 10px 20px;
+      padding: 10px 35px 10px 20px;
       border: 1px solid #ddd;
       border-radius: 0 8px 8px 0;
 }
@@ -75,7 +76,6 @@ body{
 }
 .nav{
       width: 100%;
-      margin-top: 10px;
       display: flex;
       background-image: url("../Images/main-hdr-bg.jpg")
 }
@@ -85,7 +85,7 @@ body{
 }
 .tasks{
       margin: 15px auto 5px auto;
-      padding-left: 25px;
+      padding-bottom: 5px;
       color: #ffffff;
 }
 .new-task {
@@ -94,66 +94,74 @@ body{
       color: white;
       margin-top: 5px;
       margin-right: 25px;
+
 }
 .centered {
       position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
+      top: 3%;
+      background: #0494cc;
+      height: 30px;
+      width: 80px;
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      right: 5%;
 }
 .parent{
-      width: 100%;
-      display: inline-flex;
-      margin: 0;
-      border-bottom:  1.5px solid #ddd;
+        font-family: 'Noto Sans', sans-serif;
+        width: 100%;
+        display: inline-flex;
+        margin: 0;
+        border-bottom:  1.5px solid #ddd;
 }
 .sibling-1{
-      margin: 10px;
-      max-width: 200px;
-      max-height: 126px;
-      border: 1.5px solid #ddd;
+        margin: 10px;
+        max-width: 200px;
+        max-height: 126px;
+        border: 1.5px solid #ddd;
 }
 .sibling-2{
-      margin: 10px 30px 10px 10px;
+        margin: 10px 30px 10px 10px;
 }
 .sibling-2 h2{
-      margin: 0px;
+        margin: 0px;
 }
 
 .attachment{
-      display: flex;
-      margin-top: 0px;
-      border: 1.5px solid #ddd;
-      width: 65px;
+        display: flex;
+        margin-top: 0px;
+        border: 1.5px solid #ddd;
+        width: 65px;
 }
 .attachment img{
-      margin-left: 10px;
-      margin-right: 10px;
-      object-fit: cover;
+        margin-left: 10px;
+        margin-right: 10px;
+        object-fit: cover;
+
 }
 .sibling-3{
-      margin: 10px;
+        margin: 10px;
 }
 .sibling-3 h3{
-      margin-bottom: 5px;
-      margin-top: 5px;
+        margin-bottom: 5px;
+        margin-top: 5px;
 }
 .sibling-4{
-      margin: auto 10px auto 30px;
+        margin: auto 10px auto 30px;
 }
 .allcolor{
-      display: inline-flex;
-      max-width: 300px;
-      max-height: 45px;
-      text-align: center;
-      color: #ffffff;
+        display: inline-flex;
+        max-width: 300px;
+        max-height: 45px;
+        text-align: center;
+        color: #ffffff;
 }
 .green-1{
-      background-image: url("../Images/green-color.jpg");
-      width: 50px;
-      height: 20px;
-      border: 1.25px solid #ddd;
-      border-radius: 20px 0 0 20px;
+        background-image: url("../Images/green-color.jpg");
+        width: 50px;
+        height: 20px;
+        border: 1.25px solid #ddd;
+        border-radius: 20px 0 0 20px;
 }
 .orange-1{
         background-image: url("../Images/orange-color.jpg");
@@ -247,14 +255,16 @@ body{
         height: 20px;
         border: 1.25px solid #ddd;
         border-radius: 0 20px 20px 0;
+        background-size: 90%;
+        background-repeat: no-repeat;
 }
 .footer{
-        display: inline-flex;
-        width: 100%;
-        margin: 10px 0 10px 0;
+          display: inline-flex;
+          width: 100%;
+          margin: 10px 0 10px 0;
 }
 .footer-img-1{
-        margin: 0 auto 0 0;
+          margin: 0 auto 0 0;
 }
 .footer-text{
       margin: 0 20px 0 auto;
@@ -262,12 +272,14 @@ body{
 
 }
 .text{
-      font-size: 15px;
-      color: #ffffff;
+      font-size: 14px;
+      font-weight: 600;
+      color: white;
       padding: 0 10px 0 10px;
       background-color: #0494cc;
-      width: 250px;
-      height: 50px;
+      width: 275px;
+      height: 45px;
       border: .25px solid #0494cc;
       border-radius: 5px;
+      text-align: center;
 }
