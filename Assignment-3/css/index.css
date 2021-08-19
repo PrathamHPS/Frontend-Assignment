@@ -39,6 +39,7 @@ body{
 .navbar .section {
     padding        : 5px 0 5px 5px;
     margin-left    : 25%;
+    cursor: pointer;
 }
 
 .section a{
