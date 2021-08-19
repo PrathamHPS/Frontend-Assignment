@@ -16,7 +16,7 @@ body{
 .child-1{
 
     background-image: url("../images/10.png");
-    width: 25%;
+    width: 20%;
     min-width: 275px;
     height: 100vh;
     background-color: #333333;
@@ -91,10 +91,13 @@ body{
 
 .child-2{
     background-image: url("../images/bg_main.png");
-    width: 75%;
+    width: 80%;
     min-width: 900px;
     background-color: #ffffff;
-    padding: 150px 250px 150px 100px;
+    
+}
+.main{
+      margin: 15% 15% 0 5%;
 }
 
 
