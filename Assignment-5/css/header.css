@@ -94,6 +94,11 @@
   align-items: center;
   justify-content: flex-end;
 }
+.h_bottom_child1_3{
+  min-width: 135px;
+  display: grid;
+  place-items: center;
+}
 .h_bottom_child2_6{
   padding: 5px 10px;
   background-color: #fafaf9;
@@ -104,5 +109,5 @@
 }
 .h_bottom_child2_6 span{
   font-size: 18px;
-  font-family: 'Source Code Pro', monospace;"
+  font-family: 'Source Code Pro', monospace;
 }
