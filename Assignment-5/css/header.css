@@ -90,7 +90,7 @@
   display: flex;
   width:40%;
   align-items: center;
-  justify-content: right;
+  justify-content: flex-end;
 }
 .h_bottom_child2_6{
   padding: 5px 10px;
