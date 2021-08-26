@@ -68,6 +68,7 @@
   padding: 0 10%;
   display: flex;
   box-shadow: inset 0px 0px 1px #888;
+  min-width: 900px;
 }
 .h_bottom_child1{
 
