@@ -5,3 +5,14 @@ body{
   margin:0;
   font-family: 'Raleway', sans-serif;
 }
+.hazard-value, .allcolor{
+  font-family: 'Times New Roman', monospace;
+}
+.hazard-value{
+  font-weight: bold;
+}
+.task_info, .nav_task_2_total, .value{
+  font-family: sans-serif;
+  color:  #6e6d6a;
+  spacing: 0.002em;
+}
