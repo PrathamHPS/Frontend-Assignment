@@ -328,8 +328,11 @@
         display: flex;
 }
 .footer{
+        display: flex;
+        min-width: 900px;
+        justify-content: flex-end;
         padding: 0 10%;
         color: #8c8c8c;
-        float: right;
         font-weight: bold;
+        background-color: #f9f9f9;
 }
