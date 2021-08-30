@@ -3,13 +3,14 @@
   background-image: url("../images/hdr-bg.jpg");
   width: 100%;
   height: 100px;
+  min-width: 1350px;
 }
 .head{
   display: flex;
 }
 .h_top{
   height: 50px;
-  color: #fff;
+  color: #ababab;
   font-weight: 600;
   min-width: 900px;
 }
@@ -28,7 +29,9 @@
 }
 .box4{
   margin-left: auto;
-  margin-right: 10%;
+  margin-right: 9%;
+  display: flex;
+  align-items: center;
 }
 .head p{
   margin: 0;
@@ -45,6 +48,7 @@
 }
 .box2:hover {
   background-color: #1e2225;
+  color: #fff;
   cursor: pointer;
 }
 .box3 img{
@@ -58,17 +62,24 @@
 }
 .box3:hover {
   background-color: #1e2225;
+  color: #fff;
   cursor: pointer;
 }
 .box4 p{
   font-size: 14px;
+}
+.box4 div{
+  border-right: 1px solid #ababab;
+  width: 1px;
+  height: 20px;
+  margin-right: 13px;
 }
 /* h_bottom */
 .h_bottom_parent{
   padding: 0 10%;
   display: flex;
   box-shadow: inset 0px 0px 1px #888;
-  min-width: 900px;
+  min-width: 1000px;
 }
 .h_bottom_child1{
 
@@ -89,6 +100,7 @@
   background-color: #ffffff;
   border-radius: 5px 5px 0 0;
   color: #409dce;
+  padding: 10px 24px;
 }
 .h_bottom_child2{
   display: flex;
@@ -108,6 +120,7 @@
   border-radius: 5px;
   color:#409dce;
   font-weight: 600;
+  cursor: pointer;
 }
 .h_bottom_child2_6 span{
   font-size: 18px;
