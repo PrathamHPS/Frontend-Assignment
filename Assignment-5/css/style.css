@@ -2,17 +2,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
 
 body{
-  margin:0;
-  font-family: 'Raleway', sans-serif;
+        margin:0;
+        font-family: 'Raleway', sans-serif;
+        background-color: #f9f9f9;
 }
 .hazard-value, .allcolor{
-  font-family: 'Times New Roman', monospace;
+        font-family: 'Times New Roman', monospace;
 }
 .hazard-value{
-  font-weight: bold;
+        font-weight: bold;
 }
 .task_info, .nav_task_2_total, .value{
-  font-family: sans-serif;
-  color:  #6e6d6a;
-  spacing: 0.002em;
+        font-family: sans-serif;
+        color:  #6e6d6a;
+        spacing: 0.002em;
+}
+.main_content{
+        margin: 0 10%;
 }
