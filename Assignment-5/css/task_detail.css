@@ -34,7 +34,7 @@
         padding: 10px 50px;
 }
 .details{
-        padding: 10px 50px;
+        padding: 12.5px 40px 12.5px 60px;
 }
 .details:hover {
         background-color: #3397c9;
@@ -50,6 +50,10 @@
         display: flex;
         font-size: 22px;
         background: url('../images/left-navi.png') no-repeat 5px -103px;
+        width: 160px;
+        position: relative;
+        left: -10px;
+        background-position-x: 10px;
 }
 .left_tasks img{
         padding-left: 130px;
@@ -62,6 +66,10 @@
         display: flex;
         font-size: 22px;
         background: url('../images/left-navi.png') no-repeat 4px -206px;
+        width: 160px;
+        position: relative;
+        left: -10px;
+        background-position-x: 10px;
 }
 .left_hazards img{
         padding-left: 104px;
@@ -87,6 +95,10 @@
         display: flex;
         font-size: 22px;
         background: url('../images/left-navi.png') no-repeat 2px -402px;
+        width: 160px;
+        position: relative;
+        left: -10px;
+        background-position-x: 10px;
 }
 .left_history img{
         padding-left: 115px;
@@ -99,6 +111,10 @@
         display: flex;
         font-size: 22px;
         background: url('../images/left-navi.png') no-repeat 2px -506px;
+        width: 160px;
+        position: relative;
+        left: -10px;
+        background-position-x: 10px;
 }
 .left_help img{
         padding-left: 138px;
