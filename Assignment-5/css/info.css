@@ -15,7 +15,7 @@
       background-color: #ffffff;
 }
 .info_top_child_1{
-      padding: 10px;
+      padding: 10px 10px 10px 20px;
 }
 .info_top_child_1 .task_name{
       margin: 0;
@@ -35,7 +35,7 @@
 .info_bottom{
       background-color: #ffffff;
       display:flex;
-      padding: 10px;
+      padding: 10px 10px 10px 20px;
       border: 1px solid #ddd;
       border-top: none;
       border-bottom: none;
@@ -45,6 +45,7 @@
       padding: 15px 35px 10px 20px;
       border: 1px solid #ddd;
       border-radius: 8px 0 0 8px;
+      background-color: #fcfcfc;
 }
 .data-1 .value{
       color: #409dce;
@@ -57,11 +58,13 @@
       border: 1px solid #ddd;
       border-left: none;
       border-right: none;
+      background-color: #fcfcfc;
 }
 .data-3{
       width: 20%;
       padding: 15px 35px 10px 20px;
       border: 1px solid #ddd;
+      background-color: #fcfcfc;
 }
 .data-4{
       width: 17.5%;
@@ -69,6 +72,7 @@
       border: 1px solid #ddd;
       border-left: none;
       border-right: none;
+      background-color: #fcfcfc;
 
 }
 .data-5{
@@ -76,6 +80,7 @@
       padding: 15px 35px 10px 20px;
       border: 1px solid #ddd;
       border-radius: 0 8px 8px 0;
+      background-color: #fcfcfc;
 }
 .data-5-container{
       display: flex;
@@ -84,7 +89,7 @@
       border: 2px solid #e4e4e4;
       border-radius: 5px;
       background-color: #f4f4f4;
-
+      cursor: pointer;
 }
 .data-5-container .value{
       padding: 5px;
