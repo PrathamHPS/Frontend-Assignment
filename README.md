@@ -8,6 +8,6 @@ All the assignments solution are provided here.
 >
 >> Assignment 4 (completed)
 >
->> Assignment 5 (In-progress)
+>> Assignment 5 (completed)
 >
 >> Assignment 6 (In-progress)
