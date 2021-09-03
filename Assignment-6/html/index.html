@@ -9,7 +9,11 @@
   <link rel="stylesheet" href="../css/main_content.css">
   <link rel="stylesheet" href="../css/risk.css">
   <link rel="stylesheet" href="../css/table.css">
-  <title>Assignment-6</title>
+  <link rel="stylesheet" href="../css/dropdown.css">
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <title>Assignment 6</title>
 </head>
 
 <body>
@@ -84,11 +88,23 @@
           <div class="project_name">Job Task Project Name</div>
           <div class="status">
             <div class="status_value">status</div>
-            <div class="status_img"><img src="../images/dd_arrow_1.gif" alt="img"></div>
+
+            <div class="dropdown">
+              <img class="dropbtn" src="../images/dd_arrow_1.gif" alt="img">
+              <div class="dropdown-content">
+                <a href="#">none</a>
+            </div>
+            </div>
+
           </div>
           <div class="status">
             <div class="status_value">Risk Assessor Name</div>
-            <div class="status_img"><img src="../images/dd_arrow_1.gif" alt="img"></div>
+            <div class="dropdown">
+              <img class="dropbtn" src="../images/dd_arrow_1.gif" alt="img">
+              <div class="dropdown-content">
+                <a href="#">Hazard</a>
+            </div>
+            </div>
           </div>
         </div>
 
@@ -156,15 +172,33 @@
           <div class="location_value_1">
           <div class="status">
             <div class="status_value">Country</div>
-            <div class="status_img"><img src="../images/dd_arrow_1.gif" alt="img"></div>
+            <div class="dropdown">
+              <img class="dropbtn" src="../images/dd_arrow_1.gif" alt="img">
+              <div class="dropdown-content">
+                <a href="#">India</a>
+                <a href="#">China</a>
+            </div>
+            </div>
           </div>
           <div class="status">
             <div class="status_value">state</div>
-            <div class="status_img"><img src="../images/dd_arrow_1.gif" alt="img"></div>
+            <div class="dropdown">
+              <img class="dropbtn" src="../images/dd_arrow_1.gif" alt="img">
+              <div class="dropdown-content">
+                <a href="#">Karnataka</a>
+                <a href="#">Mumbai</a>
+            </div>
+            </div>
           </div>
           <div class="status">
             <div class="status_value">city</div>
-            <div class="status_img"><img src="../images/dd_arrow_1.gif" alt="img"></div>
+            <div class="dropdown">
+              <img class="dropbtn" src="../images/dd_arrow_1.gif" alt="img">
+              <div class="dropdown-content">
+                <a href="#">Mangalore</a>
+                <a href="#">Bangalore</a>
+            </div>
+            </div>
           </div>
         </div>
       </div>
@@ -174,26 +208,51 @@
           <div class="location_value_1">
           <div class="status">
             <div class="status_value">Department</div>
-            <div class="status_img"><img src="../images/dd_arrow_1.gif" alt="img"></div>
+            <div class="dropdown">
+              <img class="dropbtn" src="../images/dd_arrow_1.gif" alt="img">
+              <div class="dropdown-content">
+                <a href="#">none</a>
+            </div>
+            </div>
           </div>
           <div class="status">
             <div class="status_value">Division</div>
-            <div class="status_img"><img src="../images/dd_arrow_1.gif" alt="img"></div>
+            <div class="dropdown">
+              <img class="dropbtn" src="../images/dd_arrow_1.gif" alt="img">
+              <div class="dropdown-content">
+                <a href="#">none</a>
+            </div>
+            </div>
           </div>
           <div class="status">
             <div class="status_value">Section</div>
-            <div class="status_img"><img src="../images/dd_arrow_1.gif" alt="img"></div>
+            <div class="dropdown">
+              <img class="dropbtn" src="../images/dd_arrow_1.gif" alt="img">
+              <div class="dropdown-content">
+                <a href="#">none</a>
+            </div>
+            </div>
           </div>
         </div>
 
         <div class="location_value_2">
         <div class="status">
           <div class="status_value">Where</div>
-          <div class="status_img"><img src="../images/dd_arrow_1.gif" alt="img"></div>
+          <div class="dropdown">
+            <img class="dropbtn" src="../images/dd_arrow_1.gif" alt="img">
+            <div class="dropdown-content">
+              <a href="#">none</a>
+          </div>
+          </div>
         </div>
         <div class="status">
           <div class="status_value">Other Field</div>
-          <div class="status_img"><img src="../images/dd_arrow_1.gif" alt="img"></div>
+          <div class="dropdown">
+            <img class="dropbtn" src="../images/dd_arrow_1.gif" alt="img">
+            <div class="dropdown-content">
+              <a href="#">none</a>
+          </div>
+          </div>
         </div>
       </div>
 
@@ -223,23 +282,28 @@
 
       <div class="diff_pages">
 
-        <a class="first" href="#">First</a>
-
         <div class="numbers">
-          <a class="arrow arrow1" href="#"> < </a>
+          <a class="first" href="#">First</a>
+          <a class="arrow arrow1" href="#" > < </a>
           <a class="num num1" href="#"> 1 </a>
           <a class="num num2" href="#"> 2 </a>
           <a class="num num3" href="#"> 3 </a>
           <a class="num num4" href="#"> 4 </a>
           <a class="num num5" href="#"> 5 </a>
           <a class="arrow arrow2" href="#"> > </a>
+          <a class="last" href="#"> Last </a>
         </div>
 
-        <a class="last" href="#"> Last </a>
         <div class="show">
-        Show :<div class="num-box">
-              10<div id="img"></div>
-              </div>
+        Show :
+        <div class="dropdown">
+          <div class="dropvalue">10</div>
+          <img class="dropbtn" src="../images/dd_arrow_1.gif" alt="img">
+          <div class="dropdown-content">
+            <a href="#">20</a>
+            <a href="#">55</a>
+        </div>
+        </div>
         </div>
         <span class="total-num"> Showing 1 to 10 of 4088 items </span>
 
