@@ -42,13 +42,14 @@ body{
 }
 /* z */
 select{
-  font-size: 12px;
-  margin: 0px 5px 10px 10px;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  width: 315px;
-  height: 26px;
-  appearance: none;
+      font-size: 12px;
+      margin: 0px 5px 10px 10px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      width: 315px;
+      height: 26px;
+      padding-left: 10px;
+      appearance: none;
 }
 
 .custom-select{
