@@ -10,7 +10,8 @@
   <link rel="stylesheet" href="../css/risk.css">
   <link rel="stylesheet" href="../css/table.css">
   <link rel="stylesheet" href="../css/dropdown.css">
-  
+  <script src="../js/index.js"></script>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
   <title>Assignment 6</title>
@@ -86,25 +87,23 @@
         <div class="risk_assessment_detail">
           <div class="risk_assessment_header">Risk Assessment Details</div>
           <div class="project_name">Job Task Project Name</div>
-          <div class="status">
-            <div class="status_value">status</div>
 
-            <div class="dropdown">
-              <img class="dropbtn" src="../images/dd_arrow_1.gif" alt="img">
-              <div class="dropdown-content">
-                <a href="#">none</a>
-            </div>
-            </div>
-
+          <div class="custom-select">
+            <select name="state" id="">
+              <option value="">Status</option>
+              <option value="">problem</option>
+              <option value="">good</option>
+            </select>
+            <span class="custom-arrow"></span>
           </div>
-          <div class="status">
-            <div class="status_value">Risk Assessor Name</div>
-            <div class="dropdown">
-              <img class="dropbtn" src="../images/dd_arrow_1.gif" alt="img">
-              <div class="dropdown-content">
-                <a href="#">Hazard</a>
-            </div>
-            </div>
+
+          <div class="custom-select">
+            <select name="state" id="">
+              <option value="">Risk Assessor Name</option>
+              <option value="">Jon Doe</option>
+              <option value="">Keven Powell</option>
+            </select>
+            <span class="custom-arrow"></span>
           </div>
         </div>
 
@@ -170,90 +169,75 @@
       <div class="location">
         <div class="location_header">Location</div>
           <div class="location_value_1">
-          <div class="status">
-            <div class="status_value">Country</div>
-            <div class="dropdown">
-              <img class="dropbtn" src="../images/dd_arrow_1.gif" alt="img">
-              <div class="dropdown-content">
-                <a href="#">India</a>
-                <a href="#">China</a>
+            <div class="custom-select">
+              <select name="state" id="">
+                <option value="">Country</option>
+                <option value="">India</option>
+                <option value="">China</option>
+              </select>
+              <span class="custom-arrow"></span>
             </div>
+            <div class="custom-select">
+              <select name="state" id="">
+                <option value="">State</option>
+                <option value="">Karnataka</option>
+                <option value="">Mumbai</option>
+              </select>
+              <span class="custom-arrow"></span>
             </div>
-          </div>
-          <div class="status">
-            <div class="status_value">state</div>
-            <div class="dropdown">
-              <img class="dropbtn" src="../images/dd_arrow_1.gif" alt="img">
-              <div class="dropdown-content">
-                <a href="#">Karnataka</a>
-                <a href="#">Mumbai</a>
+            <div class="custom-select">
+              <select name="state" id="">
+                <option value="">City</option>
+                <option value="">Mangalore</option>
+                <option value="">Bangalore</option>
+              </select>
+              <span class="custom-arrow"></span>
             </div>
-            </div>
-          </div>
-          <div class="status">
-            <div class="status_value">city</div>
-            <div class="dropdown">
-              <img class="dropbtn" src="../images/dd_arrow_1.gif" alt="img">
-              <div class="dropdown-content">
-                <a href="#">Mangalore</a>
-                <a href="#">Bangalore</a>
-            </div>
-            </div>
-          </div>
         </div>
       </div>
 
       <div class="department">
         <div class="location_header">DEPARTMENT/DIVISION/SECTION</div>
           <div class="location_value_1">
-          <div class="status">
-            <div class="status_value">Department</div>
-            <div class="dropdown">
-              <img class="dropbtn" src="../images/dd_arrow_1.gif" alt="img">
-              <div class="dropdown-content">
-                <a href="#">none</a>
+            <div class="custom-select">
+              <select name="state" id="">
+                <option value="">Department</option>
+                <option value="">none</option>
+              </select>
+              <span class="custom-arrow"></span>
             </div>
+            <div class="custom-select">
+              <select name="state" id="">
+                <option value="">Division</option>
+                <option value="">Dev</option>
+                <option value="">QA</option>
+              </select>
+              <span class="custom-arrow"></span>
             </div>
-          </div>
-          <div class="status">
-            <div class="status_value">Division</div>
-            <div class="dropdown">
-              <img class="dropbtn" src="../images/dd_arrow_1.gif" alt="img">
-              <div class="dropdown-content">
-                <a href="#">none</a>
+            <div class="custom-select">
+              <select name="state" id="">
+                <option value="">section</option>
+                <option value="">none</option>
+              </select>
+              <span class="custom-arrow"></span>
             </div>
-            </div>
-          </div>
-          <div class="status">
-            <div class="status_value">Section</div>
-            <div class="dropdown">
-              <img class="dropbtn" src="../images/dd_arrow_1.gif" alt="img">
-              <div class="dropdown-content">
-                <a href="#">none</a>
-            </div>
-            </div>
-          </div>
         </div>
 
         <div class="location_value_2">
-        <div class="status">
-          <div class="status_value">Where</div>
-          <div class="dropdown">
-            <img class="dropbtn" src="../images/dd_arrow_1.gif" alt="img">
-            <div class="dropdown-content">
-              <a href="#">none</a>
+          <div class="custom-select">
+            <select name="state" id="">
+              <option value="">Where</option>
+              <option value="">none</option>
+            </select>
+            <span class="custom-arrow"></span>
           </div>
+          <div class="custom-select">
+            <select name="state" id="">
+              <option value="">Other Field</option>
+              <option value="">none</option>
+            </select>
+            <span class="custom-arrow"></span>
           </div>
-        </div>
-        <div class="status">
-          <div class="status_value">Other Field</div>
-          <div class="dropdown">
-            <img class="dropbtn" src="../images/dd_arrow_1.gif" alt="img">
-            <div class="dropdown-content">
-              <a href="#">none</a>
-          </div>
-          </div>
-        </div>
       </div>
 
        <div class="Completed_date">
@@ -296,13 +280,13 @@
 
         <div class="show">
         Show :
-        <div class="dropdown">
-          <div class="dropvalue">10</div>
-          <img class="dropbtn" src="../images/dd_arrow_1.gif" alt="img">
-          <div class="dropdown-content">
-            <a href="#">20</a>
-            <a href="#">55</a>
-        </div>
+        <div class="custom-select-no">
+          <select name="state" id="">
+            <option value="">10</option>
+            <option value="">20</option>
+            <option value="">30</option>
+          </select>
+          <span class="custom-arrow-no"></span>
         </div>
         </div>
         <span class="total-num"> Showing 1 to 10 of 4088 items </span>
