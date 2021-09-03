@@ -15,9 +15,9 @@
         align-items: center;
         justify-content: space-between;
 }
-.info_1_child1{
-        /* padding: 10px 10px 10px 20px; */
-}
+/* .info_1_child1{
+        padding: 10px 10px 10px 20px; 
+} */
 .info_1_child1_name{
         margin: 0;
         font-size: 2.25rem;
