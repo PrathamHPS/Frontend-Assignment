@@ -40,3 +40,73 @@ body{
       height: 15px;
       margin: 0px 15px;
 }
+/* z */
+select{
+  font-size: 12px;
+  margin: 0px 5px 10px 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 315px;
+  height: 26px;
+  appearance: none;
+}
+
+.custom-select{
+    width: 315px;
+    height: 26px;
+    position: relative;
+    margin: 10px  0;
+}
+.custom-arrow{
+  position: absolute;
+  top: 0;
+  right: 0px;
+  left: 300px;
+  display: block;
+  height: 26px;
+  width: 1rem;
+  background-image: url("../images/dd_arrow_1.gif");
+  background-position-y: 4px;
+  background-position-x: 3px;
+
+
+  background-repeat: no-repeat;
+  /* background-color: red; */
+  border-left: 1px solid #ddd;
+  pointer-events: none;
+
+}
+.location_value_1 .custom-select{
+  margin-right: 45px;
+}
+.location_value_2 .custom-select{
+  margin-right: 45px;
+}
+.custom-select-no{
+    width: 50px;
+    height: 30px;
+    position: relative;
+    top: -7px;
+}
+.custom-select-no select{
+  font-size: 12px;
+  margin: 0px 10px 10px 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 50px;
+  height: 30px;
+  appearance: none;
+}
+.custom-arrow-no{
+  position: absolute;
+  top: 0;
+  right: 0px;
+  left: 35px;
+  display: block;
+  height: 26px;
+  width: 1rem;
+  background-image: url("../images/dd_arrow_1.gif");
+  background-position-y: 4px;
+  background-position-x: 3px;
+  pointer-events: none;
+}
