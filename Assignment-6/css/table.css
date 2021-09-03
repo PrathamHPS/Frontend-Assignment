@@ -1,0 +1,54 @@
+table{
+    font-family: sans-serif;
+}
+.table-bottom{
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th{
+  text-align: left;
+  font-size: 13px;
+  padding: 5px;
+  font-weight: bold;
+  height: 30px;
+  background-image:  linear-gradient(#fdfdfd, #e8e6e7);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#job-task{
+  display: inline-flex;
+  margin-left: 15px;
+}
+
+.table-bottom #img{
+  margin: 6px 0 0 15px;
+  background: url('../Images/dd_arrow.gif') no-repeat -3px -6px;
+	width: 12px;
+	height: 8px;
+}
+
+th{
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
+td{
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+  font-size: 15px;
+  color: #7d7d7d;
+}
+
+.table-bottom span {
+  display: inline-flex;
+  vertical-align: middle;
+  line-height: 32px;
+  font-weight: bold;
+  color: #3f3f3f;
+}
+
+.table-bottom span img{
+  width: 30px;
+  margin-right: 15px;
+}
