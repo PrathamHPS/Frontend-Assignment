@@ -5,7 +5,9 @@ table{
 width: 100%;
 border-collapse: collapse;
 }
-
+tr{
+  background-color: #fff;
+}
 th{
 text-align: left;
 font-size: 13px;
