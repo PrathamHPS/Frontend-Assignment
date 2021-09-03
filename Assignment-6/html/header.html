@@ -8,7 +8,8 @@
   <link rel="stylesheet" href="../css/style.css">
   <link rel="stylesheet" href="../css/main_content.css">
   <link rel="stylesheet" href="../css/risk.css">
-  <title>Assignment-6</title>
+  <link rel="stylesheet" href="../css/table.css">
+  <title>header-a6</title>
 </head>
 
 <body>
@@ -59,11 +60,12 @@
           <p class="info_1_child1_name">Search Jobs & Tasks</p>
         </div>
         <div class="info_1_child2">
-          <img src="../images/bstro-logo.gif" alt="#">
+          <img src="../images/bstro-logo_1.jpg" alt="#">
         </div>
       </div>
       <div class="info_2">
-        <div class="keyword">Keyword Search</div>
+        <!-- <div class="keyword">Keyword Search</div> -->
+        <input class="keyword" type="text" placeholder="Keyword Search" name="search">
         <div class="search">
           <a href="#">Search</a>
         </div>
@@ -82,11 +84,11 @@
           <div class="project_name">Job Task Project Name</div>
           <div class="status">
             <div class="status_value">status</div>
-            <div class="status_img"><img src="../images/th-img.png" alt="img"></div>
+            <div class="status_img"><img src="../images/dd_arrow_1.gif" alt="img"></div>
           </div>
           <div class="status">
             <div class="status_value">Risk Assessor Name</div>
-            <div class="status_img"><img src="../images/th-img.png" alt="img"></div>
+            <div class="status_img"><img src="../images/dd_arrow_1.gif" alt="img"></div>
           </div>
         </div>
 
@@ -120,22 +122,28 @@
             <div class="hazard_parameter">
               <div class="radiological">
                 <img src="../Images/icon1-active.png" alt="#">
-                Radiological</div>
+                <span style="padding-left:10px;">Radiological</span>
+              </div>
               <div class="chemical">
                 <img src="../Images/icon3-active.png" alt="icon">
-                Chemical</div>
+                <span style="padding-left:10px;">Chemical</span>
+              </div>
               <div class="electrical">
                 <img src="../Images/icon5-active.png" alt="icon">
-                Electrical</div>
+                <span style="padding-left:10px;">Electrical</span>
+                </div>
               <div class="ergonomic">
                 <img src="../Images/icon2-active.png" alt="icon">
-                Ergonomic</div>
+                <span style="padding-left:10px;">Ergonomic</span>
+                </div>
               <div class="upload">
                 <img src="../Images/icon4-active.png" alt="icon">
-                Upload</div>
+                <span style="padding-left:10px;">Upload</span>
+                </div>
               <div class="setting">
                 <img src="../Images/icon6-active.png" alt="icon">
-                Setting</div>
+                <span style="padding-left:10px;">Setting</span>
+                </div>
             </div>
           </div>
 
@@ -148,15 +156,15 @@
           <div class="location_value_1">
           <div class="status">
             <div class="status_value">Country</div>
-            <div class="status_img"><img src="../images/th-img.png" alt="img"></div>
+            <div class="status_img"><img src="../images/dd_arrow_1.gif" alt="img"></div>
           </div>
           <div class="status">
             <div class="status_value">state</div>
-            <div class="status_img"><img src="../images/th-img.png" alt="img"></div>
+            <div class="status_img"><img src="../images/dd_arrow_1.gif" alt="img"></div>
           </div>
           <div class="status">
             <div class="status_value">city</div>
-            <div class="status_img"><img src="../images/th-img.png" alt="img"></div>
+            <div class="status_img"><img src="../images/dd_arrow_1.gif" alt="img"></div>
           </div>
         </div>
       </div>
@@ -166,30 +174,30 @@
           <div class="location_value_1">
           <div class="status">
             <div class="status_value">Department</div>
-            <div class="status_img"><img src="../images/th-img.png" alt="img"></div>
+            <div class="status_img"><img src="../images/dd_arrow_1.gif" alt="img"></div>
           </div>
           <div class="status">
             <div class="status_value">Division</div>
-            <div class="status_img"><img src="../images/th-img.png" alt="img"></div>
+            <div class="status_img"><img src="../images/dd_arrow_1.gif" alt="img"></div>
           </div>
           <div class="status">
             <div class="status_value">Section</div>
-            <div class="status_img"><img src="../images/th-img.png" alt="img"></div>
+            <div class="status_img"><img src="../images/dd_arrow_1.gif" alt="img"></div>
           </div>
         </div>
 
         <div class="location_value_2">
         <div class="status">
           <div class="status_value">Where</div>
-          <div class="status_img"><img src="../images/th-img.png" alt="img"></div>
+          <div class="status_img"><img src="../images/dd_arrow_1.gif" alt="img"></div>
         </div>
         <div class="status">
           <div class="status_value">Other Field</div>
-          <div class="status_img"><img src="../images/th-img.png" alt="img"></div>
+          <div class="status_img"><img src="../images/dd_arrow_1.gif" alt="img"></div>
         </div>
       </div>
 
-      <div class="Completed_date">
+       <div class="Completed_date">
         <div class="location_header">COMPLETED BETWEEN</div>
           <div class="completion_value_1">
           <div class="start">
@@ -210,11 +218,102 @@
             <div class="apply_changes">Apply Changes</div>
           </div>
         </div>
+      </div>
+      </div>
+
+      <div class="diff_pages">
+
+        <a class="first" href="#">First</a>
+
+        <div class="numbers">
+          <a class="arrow arrow1" href="#"> < </a>
+          <a class="num num1" href="#"> 1 </a>
+          <a class="num num2" href="#"> 2 </a>
+          <a class="num num3" href="#"> 3 </a>
+          <a class="num num4" href="#"> 4 </a>
+          <a class="num num5" href="#"> 5 </a>
+          <a class="arrow arrow2" href="#"> > </a>
+        </div>
+
+        <a class="last" href="#"> Last </a>
+        <div class="show">
+        Show :<div class="num-box">
+              10<div id="img"></div>
+              </div>
+        </div>
+        <span class="total-num"> Showing 1 to 10 of 4088 items </span>
 
       </div>
 
     </div>
+    <div class="table-info">
 
+        <table class="table-bottom">
+            <tr>
+                <th >
+                    <div id="job-task">
+                        Job/TASK NAME
+                        <div id="img">
+                        </div>
+                    </div>
+                </th>
+                <th>RISK ASSESSOR</th>
+                <th>CURRENT STATUS</th>
+                <th>LAST COMPLETED</th>
+            </tr>
+            <tr>
+                <td>
+                    <span>
+                        <img src="../images/job.png" alt="icon">
+                        This is a Job Name
+                    </span>
+                </td>
+                <td>John Smith</td>
+                <td>OpenPendingApproval</td>
+                <td>03/28/2011</td>
+            </tr>
+            <tr>
+                <td >
+                    <span>
+                        <img src="../images/task.png" alt="icon">
+                        This is a Task Name
+                    </span>
+                </td>
+                <td>Theodore Rosevelt</td>
+                <td>OpenPendingApproval</td>
+                <td>03/28/2011</td>
+            </tr>
+            <tr>
+                <td >
+                    <span>
+                        <img src="../images/job.png" alt="icon">
+                        This is a Job Name
+                    </span>
+                </td>
+                <td>John Smith</td>
+                <td>OpenPendingApproval</td>
+                <td>03/28/2011</td>
+            </tr>
+            <tr>
+                <td >
+                    <span>
+                        <img src="../images/task.png" alt="icon">
+                        This is a Task Name
+                    </span>
+                </td>
+                <td>Theodore Rosevelt</td>
+                <td>OpenPendingApproval</td>
+                <td>03/28/2011</td>
+            </tr>
+        </table>
+    </div>
   </div>
+    <div class="footer">
+      <div class="f_name">© Copyright 2012. Remedy Interactive
+        <div class="f_border"> </div>
+          PRIVACY POLICY
+      </div>
+    </div>
+
 </body>
 </html>
