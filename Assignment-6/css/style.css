@@ -32,7 +32,8 @@ body{
 .f_name{
       display: flex;
       align-items: center;
-      height: 50px;
+      height: 45px;
+      font-size: 14px;
 }
 .f_border{
       border-right: 3px solid #ababab;
