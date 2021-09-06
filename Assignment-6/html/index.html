@@ -309,6 +309,10 @@
               $('.numbers').find('.num.active').removeClass('active');
               $('.numbers').find('.num.num5').addClass('active');
             });
+            $(".num").on('click',function(){
+              $('.numbers').find('.num.active').removeClass('active');
+              $(this).addClass('active');
+            });
           })
         </script>
 
