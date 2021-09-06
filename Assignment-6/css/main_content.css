@@ -94,10 +94,12 @@
   background-color: #f0f0f0;
 }
 
+/* pagination start */
+/*
 
 .first,
 .last {
-  /* display: inline-block; */
+  display: inline-block;
   border: 1px solid #ddd;
   padding: 5px 5px;
   font-size: 14px;
@@ -138,9 +140,64 @@
 .num:focus {
   background-color: #19a1c4;
   color: white;
+} */
+.numbers{
+
+  display: inline-flex;
+  background-color: #f0f0f0;
+
 }
-
-
+button{
+    border: none;
+    margin: 5px;
+    color: #9e9a9a;
+    cursor: pointer;
+}
+.numbers .num:hover,
+.numbers .active{
+    background: #3396c9;
+    color: #fff;
+}
+.num {
+  box-sizing: border-box;
+  margin: 0px 5px;
+  padding: 5px 8px;
+  font-size: 14px;
+  width: 25px;
+  text-align: center;
+  text-decoration: none;
+  color: #9e9a9a;
+  background-color: #f7f5f5a9;
+  border-radius: 5px;
+  /* border: 1px solid #ddd; */
+}
+.prev,
+.next {
+  margin: 0px 5px;
+  padding: 5px 8px;
+  font-size: 14px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  color: #9e9a9a;
+  background-color: #f7f5f5a9;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+.first,
+.last{
+  margin: 0px 5px;
+  padding: 5px 8px;
+  font-size: 14px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  color: #9e9a9a;
+  background-color: #f7f5f5a9;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+/*  end of pagination */
 .show{
   display: inline-flex;
   margin-left: 150px;;
