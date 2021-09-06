@@ -266,7 +266,7 @@
 
       <div class="diff_pages">
 
-        <div class="numbers">
+        <!-- <div class="numbers">
           <a class="first" href="#">First</a>
           <a class="arrow arrow1" href="#" > < </a>
           <a class="num num1" href="#"> 1 </a>
@@ -276,7 +276,41 @@
           <a class="num num5" href="#"> 5 </a>
           <a class="arrow arrow2" href="#"> > </a>
           <a class="last" href="#"> Last </a>
+        </div> -->
+        <div class="numbers">
+          <button class="first" >First</button>
+          <button class="prev"  > < </button>
+          <div>
+          <button class="num active num1"> 1 </button>
+          <button class="num"> 2 </button>
+          <button class="num"> 3 </button>
+          <button class="num"> 4 </button>
+          <button class="num num5"> 5 </button>
+          </div>
+          <button class="next" href="#"> > </button>
+          <button class="last" href="#"> Last </button>
         </div>
+        <script src="https:code.jquery.com/jquery-3.4.1.js"></script>
+        <script type="text/javascript">
+          $(document).ready(function(){
+            $('.next').click(function(){
+              $('.numbers').find('.num.active').next().addClass('active');
+              $('.numbers').find('.num.active').prev().removeClass('active');
+            });
+            $('.prev').click(function(){
+              $('.numbers').find('.num.active').prev().addClass('active');
+              $('.numbers').find('.num.active').next().removeClass('active');
+            });
+            $('.first').click(function(){
+              $('.numbers').find('.num.active').removeClass('active');
+              $('.numbers').find('.num.num1').addClass('active');
+            });
+            $('.last').click(function(){
+              $('.numbers').find('.num.active').removeClass('active');
+              $('.numbers').find('.num.num5').addClass('active');
+            });
+          })
+        </script>
 
         <div class="show">
         Show :
