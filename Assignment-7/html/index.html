@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header id="desk-top-header">
+        <h1>Core Admin</h1>
+        <div class="header-info">
+            <div class="home">
+                <img src="../images/home-img.jpg" alt="home icon">
+                <p>Home</p> 
+            </div>
+            <div class="users">
+                <img src="../images/person-img.jpg" alt="home icon">
+                <p>Users</p>
+            </div>
+            <div class="dropdown">
+                <select name="dropdown" id="">
+                    <option value="dropdown">Dropdown</option>
+                    <option value="dropdown">None</option>
+                </select>
+                <img src="../images/arrow-dwn.png" alt="a dropdown image">
+            </div>
+            <div class="search">
+                <input type="text" placeholder="Search" name="search" id="">
+                <img src="../images/srch-icon.png" alt="a search image">
+            </div>
+            <div class="john-smith">
+                <img id="img1" src="../images/user-img.jpg" alt="Image of John Smith">
+                <select name="dropdown" id="">
+                    <option value="dropdown">Jhon Smith</option>
+                    <option value="dropdown">Jon Doe</option>
+                </select>
+                <img id="img2" src="../images/arrow-dwn2.png" alt="a dropdown image">
+            </div>
+            <div class="i-pad-nav">
+                <img src="../images/left-nav-icon.jpg" alt="sandwich icon 2">
+                <img src="../images/hdr-nav-icon.jpg" alt="sandwich icon 2">
+            </div>
+        </div>
+    </header>
+    <header id="mobile-header">
+        <h1>Core Admin</h1>
+        <div class="mobile-nav">
+            <img src="../images/left-nav-icon.jpg" alt="sandwich icon 2">
+            <img src="../images/hdr-nav-icon.jpg" alt="sandwich icon 2">
+        </div>
+    </header>
+    <main>
+        <div id="main-left">
+            <div class="l left-dashboard active">
+                Dashboard
+            </div>
+            <div class="l left-ui-lab">
+                <select name="" id=""><option value=""> UI Lab</option></select>
+                <img src="../images/arrow-dwn2.png" alt="a drop down icon">
+            </div>
+            <div class="l left-forms">
+                Forms
+            </div>
+            <div class="l left-chart">
+                Charts
+            </div>
+            <div class="l left-other">
+                <select name="" id=""><option value=""> Others</option></select>
+                <img src="../images/arrow-dwn2.png" alt="a drop down icon">
+            </div>
+            <!-- script -->
+            <script src="https:code.jquery.com/jquery-3.4.1.js"></script>
+            <script type="text/javascript">
+             $(document).ready(function(){
+                $('.l').click(function(){
+                    $('.l').removeClass('active');
+                    $(this).addClass('active');
+                })
+             });
+            </script>
+            <!-- script end -->
+            <div class="left-cpu-usage">
+                CPU Usage
+            </div>
+            <div class="left-orders">
+                <div>
+                    <p>Orders</p>
+                    <span id="orderNo">847</span>
+                </div>
+                <img src="../images/orders-img.png" alt="image of statiscs of order" height=" 45px">
+            </div>
+            <div class="left-income">
+                <div>
+                    <p>Income</p>
+                    <span id="orderNo">$43.330</span>
+                </div>
+                <img src="../images/income-img.png" alt="image of statiscs of order" height=" 45px">
+            </div>
+            <div class="left-reviews">
+                <div>
+                    <p>Reviews</p>
+                    <span id="orderNo">223</span>
+                </div>
+                <img src="../images/reviews-img.png" alt="image of statiscs of order" height=" 45px">
+            </div>
+        </div>
+
+        <div id="main-right">
+            <div class="right-dashboard">
+                <div class="right-dashboard-child-1">
+                    Dashboard
+                    <p style="margin: 0 0 0 -35px; ">A subtitle can be added here</p>
+                </div>
+                <div class="right-dashboard-child-2">
+                    <div class="right-orders">
+                        <div>
+                            <p style="margin: 0; padding: 0 10px 0 0;">Orders</p>
+                            <span id="orderNo">847</span>
+                        </div>
+                        <img src="../images/orders-img2.png" alt="image of statiscs of order" width='90px' height=" 45px">
+                    </div>
+                    <div class="right-reviews">
+                        <div>
+                            <p style="margin: 0; padding: 0 10px 0 0;">Reviews</p>
+                            <span id="orderNo">223</span>
+                        </div>
+                        <img src="../images/reviews-img2.png" alt="image of statiscs of order" width='90px' height=" 45px">
+                    </div>
+                    <div class="right-visits">
+                        <div>
+                            <p style="margin: 0; padding: 0 10px 0 0;">New visits</p>
+                            <span id="orderNo">7930</span>
+                        </div>
+                        <img src="../images/visits-img2.png" alt="image of statiscs of order" width='90px' height=" 45px">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
