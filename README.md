@@ -10,6 +10,6 @@ All the assignments solution are provided here.
 >
 >> Assignment 5 (completed)
 >
->> Assignment 6 (In-progress)
+>> Assignment 6 (Completed)
 >
 >> Assignment 7 (In-progress)
