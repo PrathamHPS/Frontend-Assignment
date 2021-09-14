@@ -679,7 +679,7 @@ main{
 }
 .scrollbox-body {
     color: #8c8c8c;
-    height: 619px;
+    height: 615px;
     overflow-y: scroll;
     background-color: #fcfcfc;
 }
@@ -995,48 +995,3 @@ strong {
     text-align: center;
   }
 
-/* media querry for desk-top to i-pad */
-@media (max-width: 1100px) {
-    .home,.users,
-    .dropdown,
-    .search,
-    .john-smith,
-    #main-left {
-        display: none;
-    }
-    .i-pad-nav{
-        display: flex;
-     } 
-    
-}
-/* media queryry for mobile  */
-
-@media (max-width: 484px) {
-    #mobile-header {
-        display: flex;
-        min-width: 330px;
-    }
-    #desk-top-header{
-        display: none;
-     }   
-     .right-dashboard {
-         display: block;
-         /* min-width: 370px; */
-         /* flex-direction: column; */
-     } 
-     .right-dashboard-child-1 {
-         display: grid;
-         place-items: center;
-        background-position-x: 25%;
-        padding-bottom: 20px;
-     }
-    
-}
-@media (max-width: 754px) {
-    .right-dashboard-child-2 div img {
-        display: none;
-    }
-    .right-home-dashboard {
-        width: 90%;
-    }
-}
