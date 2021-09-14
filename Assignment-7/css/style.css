@@ -22,6 +22,7 @@ body{
     color:#738085;
     padding: 0 10px;
     font-size: 28px;
+    margin: 0;
 }
 .header-info {
     display: inline-flex;
