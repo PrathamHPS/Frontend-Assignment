@@ -168,3 +168,259 @@
     font-size: 12px;
     padding: 5px;
   }
+
+
+  /* media querry for desk-top to i-pad */
+@media (max-width: 1100px) {
+  .home,.users,
+  .dropdown,
+  .search,
+  .john-smith,
+  #main-left {
+      display: none;
+  }
+  .i-pad-nav{
+      display: flex;
+   } 
+  .calender {
+      min-width: 350px;
+      margin: 20px 10px 20px 20px;
+  }
+  .scrollbox {
+    min-width: 350px;
+    margin: 20px 20px 20px 10px;
+  }
+  #date19-longevent {
+    min-width: 50px;
+    top: -12px;
+  }
+  .chart-total-visits, .chart-bottom-visit {
+    max-width: 170px;
+  }
+  .chart-total-visits .no-visit {
+    font-size: 26px;
+}
+.chart-new-visits p, .chart-page-visits p {
+  
+  font-size: 10px;
+  font-weight: bold;
+}
+.no-visit {
+  font-size: 14px;
+}
+  .chart-page-visits,
+  .chart-new-visits {
+    min-width: 75px;
+}
+.chart-graph {
+  margin: 20px;
+}
+.box-1, .box-2, .box-3 {
+  width: 94%;
+}
+}
+/* media queryry for mobile  */
+
+@media (max-width: 484px) {
+   .i-pad-nav{
+      display: flex;
+   } 
+   #desk-top-header{
+     height: 90px;
+      display: flex;
+      flex-direction: column;
+   } 
+   .right-dashboard {
+       display: block;
+       /* min-width: 370px; */
+       /* flex-direction: column; */
+   } 
+   .right-dashboard-child-1 {
+       display: grid;
+       place-items: center;
+      background-position-x: 25%;
+      padding-bottom: 20px;
+   }
+   .right-icons-charts {
+    flex-direction: column;
+  }
+   .icons {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+  .row {
+    width: 95%;
+  }
+  .row #img1 {
+    position: absolute;
+    top: 10px;
+    left: 43%;
+  }
+  .right-icon-1 span {
+    left: 38%;
+  }
+  .right-icon-2 span {
+    left: 40%;
+  }
+  .right-icon-3 span {
+    left: 44%;
+  }
+  .right-icon-4 span {
+    left: 42%;
+  }
+  .right-icon-5 span {
+    left: 40%;
+  }
+  .right-icon-6 span {
+    left: 38%;
+  }
+  .calender-scrollbox {
+    flex-direction: column;
+  }
+  .calender {
+    width: 90%;
+    margin: 10px auto;
+  }
+  .row2 td {
+    height: 71px;
+  }
+  .row3 td {
+    height: 114px;
+  }
+  .right-charts {
+    width: 94%;
+  }
+  .chart-graph {
+    display: none;
+  }
+  .chart-container {
+    flex-direction: column;
+  }
+  .chart-total-visits {
+    max-width: 90%;
+  }
+  .chart-bottom-visit {
+    display: flex;
+    flex-direction: column;
+    max-width: 90%;
+}
+.no-visit {
+  position: relative;
+  top: -8px;
+  padding-left: 5px;
+}
+.chart-page-visits, 
+.chart-new-visits {
+  min-width: 100%;
+}
+.comment-header {
+  padding-left: 45px;
+  position: relative;
+  left: -45px;
+  width: 100%;
+}
+.scrollbox {
+  margin: 20px;
+  min-width: 325px;
+}
+  .b-file-boxes {
+    flex-direction: column;
+    padding: 20px;
+    margin: 0 20px;
+  }
+  .boxes {
+    max-width: none;
+    margin: 10px;
+  }
+  .b-comment,
+  .b-task,
+  .b-file {
+    position: relative;
+  }
+  .b-comment img,
+  .b-task img,
+  .b-file img {
+    position: absolute;
+    z-index: 1;
+    top: 5px;
+    left: 10px;
+    border-bottom: none;
+  }
+  
+  .comment-header img,
+  .task-header img,
+  .file-header img {
+    display: none;
+  }
+  .comment-body {
+    margin-left: 0;
+    padding-left: 45px;
+    padding-bottom: 5px;
+  }
+  .comment-header .id,
+  .task-header .id,
+  .file-header .id {
+  margin: 0;
+  }
+  .comment-header .timer,
+  .task-header .timer,
+  .file-header .timer {
+    padding:10px 0px 10px 25px;
+    background-position-y: 13px;
+  }
+  .box-1, .box-2, .box-3 {
+    width: 97%;
+  }
+  .b-core-admin {
+    margin-left: 20px;
+  }
+  .b-core-admin textarea {
+    width: 85%;
+  }
+  .b-core-admin .img2 {
+    top: 67px;
+  }
+  .b-core-admin em,
+  .b-core-admin p {
+    margin-left: 20px;
+  }
+  .b-core-admin .img1 {
+    left: 300px;
+  }
+}
+
+/* ipad */
+@media (max-width: 754px) {
+  .right-dashboard-child-2 div img {
+      display: none;
+  }
+  .right-home-dashboard {
+      width: 90%;
+  }
+  
+}
+
+@media (max-width: 770px) {
+  .cal-box-h {
+    font-size: 15px;
+  }
+  .calender-header div span {
+    padding: 13px 10px;
+    font-size: 14px;
+  }
+  .s-box-h {
+    margin: 0;
+    padding: 10px;
+    color: #8c8c8c;
+    font-size: 15px;
+  }
+  .scroll-box div h4 {
+    font-size: 18px;
+  }
+  .comment-header span,
+  .task-header span,
+  .file-header span {
+    font-size: 14px;
+  }
+}
