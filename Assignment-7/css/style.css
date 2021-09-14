@@ -180,7 +180,7 @@ main{
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    padding-left: 85px;
+    padding-left: 80px;
     height: 50px;
     background-image: url('../images/dashboard-img.jpg');
     background-repeat: no-repeat;
@@ -193,7 +193,7 @@ main{
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    padding-left: 80px;
+    padding-left: 75px;
     position: relative;
     height: 50px;
     background-image: url('../images/lab-img.jpg');
@@ -220,7 +220,7 @@ main{
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    padding-left: 85px;
+    padding-left: 80px;
     height: 50px;
     background-image: url('../images/forms-img.jpg');
     background-repeat: no-repeat;
@@ -233,7 +233,7 @@ main{
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    padding-left: 85px;
+    padding-left: 80px;
     height: 50px;
     background-image: url('../images/charts-img.jpg');
     background-repeat: no-repeat;
@@ -246,7 +246,7 @@ main{
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    padding-left: 80px;
+    padding-left: 75px;
     position: relative;
     height: 50px;
     background-image: url('../images/lab-img.jpg');
@@ -328,6 +328,7 @@ main{
 #main-right {
     width: 100%;
     background-color: #f0f0f0;
+    padding-bottom: 25px;
 }
 .right-dashboard {
     display: flex;
@@ -391,8 +392,7 @@ main{
 .right-home-dashboard {
     font-family: sans-serif;
     margin: 20px;
-    width: 95%;
-    display: inline-flex;
+    display: flex;
     align-items: center;
     justify-content: flex-start;
     border: 1px solid rgba(66, 64, 64, 0.432);
@@ -503,6 +503,18 @@ main{
     color: #fff;
     font-weight: 800;
   }
+  .right-icon-2 p{
+    position: absolute;
+    padding: 2px 5px;
+    top: 1px;
+    right: 1px;
+    margin: 0;
+    background-color: #52504e;
+    color: #fff;
+    border-radius: 4px;
+    font-weight: 800;
+    font-size: 13px;
+  }
   .right-icon-4 p{
     position: absolute;
     top: -14px;
@@ -556,8 +568,7 @@ main{
   
   .chart-total-visits .no-visit {
     position: absolute;
-    top: 5px;
-    padding-left: 5px;
+    top: 0px;
     font-size: 30px;
   }
   .chart-total-visits p,
@@ -567,6 +578,11 @@ main{
     padding-top: 5px;
     font-size: 12px;
     font-weight: bold;
+  }
+  .no-visit {
+      position: absolute;
+      top: 2px;
+      padding-left: 5px;
   }
   .bar {
     background: #dadada;
@@ -622,12 +638,14 @@ main{
 
 .calender-scrollbox {
     display: flex;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 .scrollbox {
     height: auto;
     margin: 20px 20px;
     border: 1px solid #cfcfcf;
+    min-width: 450px;
 }
 .scrollbox-header {
     display: flex;
@@ -656,12 +674,13 @@ main{
     align-items: center;
     /* justify-content: center; */
     border-bottom: 1px solid #cfcfcf;
+    border-right: 1px solid #cfcfcf;
 }
 .scrollbox-body {
     color: #8c8c8c;
-    height: 400px;
+    height: 619px;
     overflow-y: scroll;
-    
+    background-color: #fcfcfc;
 }
 .scroll-box div h4 {
     margin: 0;
@@ -687,11 +706,13 @@ main{
     padding: 5px 10px 0 0;
 }
 /* styling bottom part of page */
+.extras {
+    font-family: 'Noto Sans', sans-serif;
+}
 .b-comment {
     display: flex;
-    margin: 20px;
+    margin: 20px 10px 20px 20px;
     color: #8c8c8c;
-    
 }
 .comment-body {
     width: 100%;
@@ -804,7 +825,174 @@ main{
     margin: 0 20px;
     padding-left: 25px;
 }
+/* bottom 3 boxes */
+.b-file {
+    margin-bottom: 0;
+}
+/* styling for 3 box */
+.b-file-boxes {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #8c8c8c;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0 20px 0 73px;
+    border: 1px solid #cfcfcf;
+    border-top: none;
+    background-color: #fff;
+}
+.boxes {
+    cursor: pointer;
+    margin: 30px 20px 50px 20px;
+    height: 100px;
+    max-width: 16vw;
+    width: 100%;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    position: relative;
+}
+.boxes div {
+    display: grid;
+    place-items: center;
+}
+.box-1,
+.box-2,
+.box-3 {
+    background-color: #cccccc;
+    height: 90px;
+    width: 95.5%;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    
+}
+.lit {
+    border: 1.5px solid #6dbff2;
+    box-shadow: 1px 1px 12px #6dbff2;
+}
+.boxes:hover {
+    border: 1.5px solid #6dbff2;
+    box-shadow: 1px 1px 12px #6dbff2;
+}
 
+/* bottom last part styling */
+.b-core-admin {
+    font-family: 'Noto sans',sans-serif;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    color: #8c8c8c;
+    background-color: #fff;
+    position: relative;
+    margin: 20px 20px 0 73px;
+    border: 1px solid #cfcfcf;
+}
+.b-core-admin p {
+    margin: 15px 0 0 75px;
+}
+.b-core-admin em {
+    margin-left: 75px;
+    
+}
+.b-core-admin .img1 {
+    position: absolute;
+    height: 33px; width: 32px;
+    top: 20px;
+    left: 350px;    
+}
+.b-core-admin textarea {
+    width: 90%;
+    margin: 20px;
+    height: 30px;
+    border: 1px solid #cfcfcf;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.b-core-admin .img2 {
+    border: 1px solid #cfcfcf;
+    border-bottom: none; border-right: none;
+    transform: rotate(45deg);
+    position: absolute;
+    height: 10px; width: 10px;
+    top: 69px;
+    left: 50px; 
+}
+/* .b-core-admin .img3 {
+    position: absolute;
+    height: 20px; width: 20px;
+    top: 80px;
+    right: 40px; 
+    pointer-events: none;
+} */
+strong {
+    color: #474747;
+}
+
+/* Calender styling */
+/* calender styling */
+.calender {
+    height: auto;
+    margin: 20px 20px;
+    border: 1px solid #cfcfcf;
+    color: #8c8c8c;
+    width: 100%;
+    min-width: 450px;
+}
+.calender-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #cfcfcf;
+    background-image: linear-gradient(#f2f2f2, #e5e5e5);
+    height: 49px;
+}
+.calender-header div {
+    display: flex;
+}
+.cal-box-h {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0px 20px;
+    color: #8c8c8c;
+}
+.calender-header div span{
+    padding: 15px 20px;
+    border-left: 1px solid #cfcfcf;
+}
+.cal-month {
+    background-image: linear-gradient(#f9f9f9, #f1f1f1);
+}
+.month-header {
+    background-color: white;
+    text-align: center;
+    height: 40px;
+    border-bottom: 1.5px solid #ddd;
+  }
+  
+  .left-arrow {
+    float: left;
+    margin: 5px 10px;
+  }
+  .right-arrow {
+    float: right;
+    margin: 5px 10px;
+  }
+  
+  .month-header span {
+    display: inline-block;
+    width: 100%;
+    margin-top: 10px;
+    height: auto;
+    font-size: 14px;
+    opacity: 0.8;
+    font-weight: bold;
+    text-align: center;
+  }
 
 /* media querry for desk-top to i-pad */
 @media (max-width: 1100px) {
