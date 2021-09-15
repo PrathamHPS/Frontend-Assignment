@@ -319,6 +319,7 @@
   position: relative;
   left: -45px;
   width: 100%;
+  height: 60px;
 }
 .scrollbox {
   margin: 20px;
@@ -337,6 +338,9 @@
   .b-task,
   .b-file {
     position: relative;
+  }
+  .comment-info {
+    font-size: 14px;
   }
   .b-comment img,
   .b-task img,
@@ -363,7 +367,13 @@
   .file-header .id {
   margin: 0;
   }
-  .comment-header .timer,
+  .comment-header .timer {
+      position: absolute;
+      right: -3px;
+      bottom: -4px;
+      padding:10px 0px 10px 25px;
+    background-position-y: 13px;
+  }
   .task-header .timer,
   .file-header .timer {
     padding:10px 0px 10px 25px;
@@ -384,9 +394,10 @@
   .b-core-admin em,
   .b-core-admin p {
     margin-left: 20px;
+    font-size: 13px;
   }
   .b-core-admin .img1 {
-    left: 300px;
+    left: 285px;
   }
 }
 
