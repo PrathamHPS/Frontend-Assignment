@@ -104,7 +104,7 @@
     display: block;
     min-width: 175%;
     margin: 35px 0px 5px 3px;
-    border-radius: 0.5ch 0 0 0.5ch;
+    border-radius: 4px;
     color: white;
     font-size: 12px;
     padding: 5px;
@@ -196,7 +196,7 @@
       display: flex;
    } 
   .calender {
-      min-width: 350px;
+      min-width: 470px;
       margin: 20px 10px 20px 20px;
   }
   .row4 td {
@@ -282,6 +282,10 @@
 
 
 @media (max-width: 770px) {
+  .calender {
+    min-width: 350px;
+    margin: 20px 10px 20px 20px;
+}
   .cal-box-h {
     font-size: 15px;
   }
@@ -531,29 +535,29 @@
    font-size: 13px;
  }
  .b-core-admin .img1 {
-   left: 285px;
+   left: 85%;
  }
  
  #all-day-event{
-   background-color: #709bbd;
-   display: block;
-   min-width:25px;
-   margin: 35px 3px 5px 3px;
-   border-radius: 0.5ch;
-   color: white;
-   font-size: 10px;
-   padding: 5px;
+  background-color: #709bbd;
+  display: block;
+  min-width: 30px;
+  margin: 35px 2px 5px 2px;
+  border-radius: 2px;
+  color: white;
+  font-size: 7px;
+  padding: 2px;
  }
  
  #date19-longevent{
    background-color: #709bbd;
    display: block;
    min-width: 166%;
-   margin: 35px 0px 5px 3px;
-   border-radius: 0.5ch 0 0 0.5ch;
+   margin: 35px 2px 5px 2px;
+   border-radius: 2px;
    color: white;
-   font-size: 9px;
-   padding: 5px;
+   font-size: 7px;
+   padding: 2px;
    position: absolute;
    top: 0;
  }
@@ -561,61 +565,118 @@
  #date21-repeatevent{
    background-color: #709bbd;
    display: block;
-   min-width:50px;
-   margin: 35px 3px 5px 3px;
-   border-radius: 0.5ch;
+   min-width:30px;
+   margin: 35px 2px 5px 2px;
+   border-radius: 2px;
    color: white;
-   font-size: 10px;
-   padding: 5px;
+   font-size: 7px;
+   padding: 2px;
    position: relative;
    top: 9px;
  }
  .google {
    background-color: #709bbd;
    display: block;
-   min-width: 140%;
-   margin: 35px 0px 5px 3px;
-   border-radius: 0.5ch;
+   min-width: 90px;
+   margin: 35px 2px 5px 2px;
+   border-radius: 2px;
    color: white;
-   font-size: 10px;
-   padding: 5px;
+   font-size: 7px;
+   padding: 2px;
    position: absolute;
    top: -8px;
  }
  #date24-meeting{
    display: block;
    background-color: #709bbd;
-   min-width:50px;
-   margin: 35px 3px 5px 3px;
-   border-radius: 0.5ch;
+   min-width:30px;
+   margin: 35px 2px 5px 2px;
+   border-radius: 2px;
    color: white;
-   font-size: 10px;
-   padding: 5px;
+   font-size: 7px;
+   padding: 2px;
  }
  
  #date24-lunch{
    display: block;
    background-color: #709bbd;
-   min-width:50px;
-   margin: 5px 3px 5px 3px;
-   border-radius: 0.5ch;
+   min-width:30px;
+   margin: 5px 2px 5px 3px;
+   border-radius: 2px;
    color: white;
-   font-size: 10px;
-   padding: 5px;
+   font-size: 7px;
+   padding: 2px;
  }
  
  #date25-bday{
    display: block;
    background-color: #709bbd;
-   min-width:50px;
-   margin: 35px 3px 5px 3px;
-   border-radius: 0.5ch;
+   min-width:30px;
+   margin: 35px 2px 5px 3px;
+   border-radius: 2px;
    color: white;
-   font-size: 10px;
-   padding: 5px;
+   font-size: 7px;
+   padding: 2px;
  }
  .calendar-table {
   width: 100%;
   border-collapse: collapse;
   }
+  .r-home {
+    padding: 8px 4px;
+  }
+  .file-header .post-on,
+  .comment-header .post-on,
+  .task-header .post-on {
+    margin: 0;
+  }
+  .cal-box-h {
+    font-size: 13px;
+  }
+  .calender-header div span {
+    padding: 13px 10px;
+    font-size: 11px;
+  }
+  .calendar-table th {
+    width: 50px;
+    border-right: 0.5px solid #ccc;
+    border-bottom: none;
+    font-size: 11px;
+    padding: 5px;
+    background-color: #fff;
+  }
+  .s-box-h {
+    margin: 0;
+    padding: 10px;
+    color: #8c8c8c;
+    font-size: 12px;
+  }
+  .s-box-value {
+    font-weight: bold;
+    color: #fff;
+    background-color: #5a9bc3;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 10px;
+  }
+  .scroll-box div h4 {
+    font-size: 18px;
+  }
+  .row {
+    font-size: 14px;
+  }
+  #desk-top-header h1 {
+    color: #738085;
+    padding: 0 10px;
+    font-size: 28px;
+    margin: 0;
+    font-weight: 100;
+  }
+  #mobile-font {
+    font-size: 13px;
+  }
+  .scroll-box div h4 {
+    font-size: 15px;
+}
 }
