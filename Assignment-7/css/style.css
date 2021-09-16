@@ -667,7 +667,7 @@ main{
 }
 .s-box-h {
     margin: 0;
-    padding: 20px;
+    padding-left: 20px;
     color: #8c8c8c;
 }
 .s-box-value {
