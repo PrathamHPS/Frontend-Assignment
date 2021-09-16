@@ -403,9 +403,10 @@ main{
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    border: 1px solid rgba(66, 64, 64, 0.432);
+    border: 1px solid #cfcfcf;
     border-radius: 5px;
-
+    background-image: url('../images/db-menu-bg.jpg');
+    background-size: contain;
 }
 .r-home {
     background-image: url('../images/big-right-arrow3.jpg');
@@ -555,7 +556,9 @@ main{
     justify-content: space-between;
     border-bottom: 1px solid #cfcfcf;
     background-image: linear-gradient(#f2f2f2, #e5e5e5);
-    border-radius: 4px 4px 0 0
+    border-radius: 4px 4px 0 0;
+    background-image: url('../images/db-menu-bg.jpg');
+    background-size: contain;
   
   }
   .right-chart-header-setting h3 {
@@ -664,6 +667,8 @@ main{
     border-bottom: 1px solid #cfcfcf;
     background-image: linear-gradient(#f2f2f2, #e5e5e5);
     border-radius: 4px 4px 0 0;
+    background-image: url('../images/db-menu-bg.jpg');
+    background-size: contain;
 }
 .s-box-h {
     margin: 0;
@@ -925,6 +930,7 @@ main{
     padding-left: 10px;
     padding-top: 10px;
     border-radius: 3px;
+    color: #8c8c8c;
 }
 .b-core-admin .img2 {
     border: 1px solid #cfcfcf;
@@ -962,10 +968,13 @@ strong {
     justify-content: space-between;
     border-bottom: 1px solid #cfcfcf;
     background-image: linear-gradient(#f2f2f2, #e5e5e5);
-    height: 49px;
+    height: 50px;
+    background-image: url('../images/db-menu-bg.jpg');
+    background-size: contain;
 }
 .calender-header div {
     display: flex;
+    height: 100%;
 }
 .cal-box-h {
     display: flex;
@@ -976,12 +985,14 @@ strong {
     margin: 0;
 }
 .calender-header div span{
-    padding: 14px 10px;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
     border-left: 1px solid #cfcfcf;
     font-weight: bold;
 }
 .cal-month {
-    background-image: linear-gradient(#f9f9f9, #f1f1f1);
+    background-image: linear-gradient(#fcfcfc, #fff);
 }
 .month-header {
     background-color: white;
