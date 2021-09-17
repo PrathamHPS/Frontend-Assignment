@@ -408,7 +408,8 @@
  }
  .calender {
    width: 90%;
-   margin: 10px auto;
+   margin: 10px 20px;
+   min-width: 324px;
  }
  .row2 td {
    height: 71px;
@@ -524,15 +525,17 @@
    margin-left: 20px;
  }
  .b-core-admin textarea {
-   width: 85%;
+   width: 83%;
+   font-size: 11px;
  }
  .b-core-admin .img2 {
-   top: 67px;
+   top: 60px;
+   left: 33px;
  }
  .b-core-admin em,
  .b-core-admin p {
-   margin-left: 20px;
-   font-size: 13px;
+   margin-left: 58px;
+   font-size: 11px;
  }
  .b-core-admin .img1 {
    left: 85%;
@@ -577,7 +580,7 @@
  .google {
    background-color: #709bbd;
    display: block;
-   min-width: 90px;
+   min-width: 80px;
    margin: 35px 2px 5px 2px;
    border-radius: 2px;
    color: white;
@@ -623,7 +626,7 @@
   border-collapse: collapse;
   }
   .r-home {
-    padding: 8px 4px;
+    padding: 8px 3px;
   }
   .file-header .post-on,
   .comment-header .post-on,
@@ -638,7 +641,7 @@
     font-size: 11px;
   }
   .calendar-table th {
-    width: 50px;
+    min-width: 35px;
     border-right: 0.5px solid #ccc;
     border-bottom: none;
     font-size: 11px;
