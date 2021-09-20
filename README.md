@@ -12,4 +12,4 @@ All the assignments solution are provided here.
 >
 >> Assignment 6 (Completed)
 >
->> Assignment 7 (In-progress)
+>> Assignment 7 (Completed)
