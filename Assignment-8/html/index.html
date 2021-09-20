@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Assignment-8</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="col-1" >FileName</div>
+        <div class="col-2">Download Link</div>
+        <div class="col-3">Sublime</div>
+        <div class="col-4" ><span class="active right" data-tooltip="23 MB">Download</span></div>
+        <div class="col-5">Photoshop</div>
+        <div class="col-6"><span class="active left" data-tooltip="45 MB"> Download</span></div>
+        <div class="col-7">Illustrator</div>
+        <div class="col-8"><span class="active right" data-tooltip="23 MB"> Download</span> </div>
+        <div class="col-9">WebMaster</div>
+        <div class="col-10"><span class="active top" data-tooltip="60 MB"> Download</span></div>
+        <div class="col-11">Bootstrap</div>
+        <div class="col-12"><span class="active bottom" data-tooltip="35 MB"> Download</span></div>
+        <div class="col-13">Magento</div>
+        <div class="col-14"><span class="active right" data-tooltip="23 MB"> Download</span></div>
+        <div class="col-15">AbanteCart</div>
+        <div class="col-16"><span class="active left" data-tooltip="45 MB"> Download</span></div>
+    </div>
+    <div class="pop-up-container">
+        <div class="pop-up">
+            <span>Are you sure you want to download ?</span>
+            <div class="okay">Okay!</div>
+        </div>
+    </div>
+    <script src="https:code.jquery.com/jquery-3.4.1.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.active').click(function(){
+                $('.pop-up-container').css("display", 'flex');
+            });
+            $('.okay').click(function(){
+                $('.pop-up-container').css("display", 'none');
+            });
+        });
+    </script>
+</body>
+</html>
