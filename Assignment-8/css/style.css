@@ -7,17 +7,13 @@ body {
     font-family: sans-serif;
     position: relative;
 }
-
-.container {
-    display: grid;
-    width: 900px;
-    margin: 0 auto;
-    grid-template-columns: 1fr 2fr;
+table {
+    border-collapse: collapse;
     border: 1px solid #25a0f7;
-    border-top: none;
 }
-.col-1,
-.col-2 {
+
+thead tr{
+    height: 55px;
     background-color: #25a0f7;
     color: #fff !important;
     font-size: 22px;
@@ -27,45 +23,42 @@ body {
     border-bottom: none !important;
     text-decoration: none !important;
 }
-.col-2 {
-    border-left: 1px solid #fff !important;
-}
-.col-3,
-.col-4,
-.col-7,
-.col-8,
-.col-11,
-.col-12,
-.col-15,
-.col-16 {
-    background-color: #e9e9e9 !important;
-}
-
-.container div {
-    height: 55px;
-}
-.container > div:nth-child(1n) {
-    padding-left: 30px ;
-    display: flex;
-    align-items: center;
-    color: #807f7fb7;
+tbody tr {
+    color: #fff !important;
     font-size: 22px;
     letter-spacing: 1.5px;
-    font-weight: 600;
+    font-weight: 600 !important;
+    height: 70px !important; 
+    border-bottom: none !important;
+    text-decoration: none !important;
 }
-.container > div:nth-child(2n) {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-left: 1px solid #25a0f7;
-    color: #25a0f7cc;
-    text-decoration-line: underline ;
-    text-decoration-thickness: 2px;
-    padding-left: 0px;
+thead tr td:first-child{
+    padding-left: 50px;
+    width: 300px;
+    border-right: 1px solid #fff;
 }
-.container div span {
+tbody tr td:first-child {
+    padding-left: 50px;
+    color: #9e9d9d;
+    border-right: 1px solid #25a0f7;
+}
+
+thead tr td:last-child {
+    width: 500px;
+    text-align: center;
+}
+tbody tr td:last-child {
+    text-align: center;
+    color:#25a0f7;
+    text-decoration: underline;
+}
+tbody tr:nth-child(odd) {
+    background-color: #e9e9e9;
+}
+tbody tr td span {
     cursor: pointer;
 }
+
 .right,
 .left,
 .top,
@@ -142,12 +135,12 @@ body {
     position: absolute;
     content: " ";
     right: 43%;
-    bottom: -19.5px;
+    bottom: -20px;
     border: 10px solid transparent;
     border-bottom: 25px solid #0000009f;
     z-index: 2;
 }
-
+/* style on click */
 .pop-up-container {
     position: absolute;
     width: 100%;
@@ -165,13 +158,7 @@ body {
     align-items: center;
     flex-direction: column;
     position: relative;
-}
-.pop-up::after {
-    position: absolute;
-    content: " ";
-    background-color: #25a0f7;
-    width: 100%;
-    height: 10px;
+    border-top: 10px solid #25a0f7;
 }
 .pop-up span {
     margin-top: 40px ; 
