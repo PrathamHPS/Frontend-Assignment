@@ -1,0 +1,14 @@
+Given the array of object sort by name and the value that are checked
+ip: [ { title: "A", checked: false },
+  { title: "B", checked: true },
+  { title: "C", checked: false },
+  { title: "D", checked: true },
+  { title: "E", checked: false },
+  { title: "F", checked: true } ]
+
+op: [ { title: "B", checked: true },
+  { title: "D", checked: true },
+  { title: "F", checked: true },
+  { title: "A", checked: false },
+  { title: "C", checked: false },
+  { title: "E", checked: false } ]

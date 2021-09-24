@@ -1,0 +1,9 @@
+In the given array if there is a string separated by comma, then replace them with separate string as shown below
+  With string
+    ip: ["vinoj, arjun", "dixy", "amala"],
+    op: ["vinoj", "arjun", "dixy", "amala"]
+    
+Flatten the given array of objects
+  With objects
+    ip: [ [{name: "vinoj"}, {name: "dixy"}], {name: "amala"}, {name: "arjun"}]
+    op: [ {name: "vinoj"}, {name: "dixy"}, {name: "amala"}, {name: "arjun"}]
