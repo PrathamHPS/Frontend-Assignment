@@ -16,6 +16,6 @@ All the assignments solution are provided here.
 >
 >> Assignment 7 (Completed)
 >
->> Assignment 8 (In-Progress)
+>> Assignment 8 (Completed)
 >
 >> Assignment 9 (In-Progress)
