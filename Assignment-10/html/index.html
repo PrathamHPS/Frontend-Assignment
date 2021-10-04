@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>A-10</title>
+    <script src="https://kit.fontawesome.com/17517da279.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="container">
+        <div class="row">
+            <nav class="navbar justify-content-between">
+                <a class="navbar-name">Todo List</a>
+                <form class="form-inline">
+                    <input class="search-checklist" type="search" placeholder="Search" aria-label="Search"
+                    id="searchtextbox"/>
+                </form>
+            </nav>
+        </div>
+    </header>
+
+    <section class="content parent-section">
+        <div class="center">
+            <div class="horizontal-center">
+                <h1 class="app-header">WELCOME!</h1>
+                <div class="todo interface">
+                    <div class="todo-input">
+                        <input type="text" class="form-control" placeholder="Enter your task" id="addtaskinput" />
+                        <input type="hidden" id="saveindex">
+                        <button type="button" class="btn btn-success" id="addtaskbtn">
+                            Add Task
+                        </button>
+                        <button type="button" class="btn btn-success" id="savetaskbtn" style="display: none;">
+                            Save Task
+                        </button>
+                        <button type="button" id="deleteallbtn" class="btn btn-delete">
+                            Delete All
+                        </button>
+                    </div>
+                    
+                    <div class="todo-output">
+                        <!-- table/list -->
+                        <table class="table" id="addedtasklist">
+                            
+                            
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <script src="../js/main.js"></script>
+    
+</body>
+</html>
