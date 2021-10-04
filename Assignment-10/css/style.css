@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,500;1,500&display=swap');
+
+body {
+    margin: 0;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+/* Header CSS */
+header {
+    width: 100%;
+    background-color: #343a40;
+    box-shadow: 0px 4px 10px 2px #343a40aa;
+}
+.navbar {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.navbar-name {
+    font-size: 1.5rem;
+    color: #fff;
+}
+.search-checklist {
+    padding: 10px;
+    width: 250px;
+}
+.search-checklist:focus {
+    outline: 0;
+    box-shadow: 0px 0px 0px 2px rgb(158, 158, 167);
+}
+form {
+    display: none;
+}
+/* Main Body CSS */
+section {
+    width: 100%;
+}
+.center {
+    margin: 0 150px;
+}
+.horizontal-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.app-header {
+    font-size: 35px;
+    color: #343a40;
+}
+
+.todo { 
+    padding: 20px;
+    background-color: #efefef;
+    box-shadow: 0px 0px 10px 3px rgb(173, 165, 165);
+}
+.todo-input {
+    display: flex;
+    justify-content: space-between;
+}
+.form-control {
+    padding: 10px;
+    width: 250px;
+    margin-right: 25px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+.form-control:focus {
+    outline: 0;
+    box-shadow: 0px 0px 0px 2px rgb(158, 158, 167);
+}
+.btn {
+    font-weight: bold;
+    padding: 10px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.btn-success {
+    background-color: #419754;
+    border: 1px solid rgb(96, 194, 96);
+    border-radius: 4px;
+    color: #fff;
+}
+.btn-success:hover {
+    background-color: rgb(24, 136, 24);
+}
+.btn-delete {
+    background-color: #e04d5c;
+    border: 1px solid rgb(182, 73, 39);
+    border-radius: 4px;
+    color: #fff;
+    margin-right: 0;
+}
+.btn-delete:hover {
+    background-color: rgb(196, 60, 36);
+}
+
+/* table css */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+table tr:nth-child(odd) {
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+td {
+    padding: 10px;
+}
+td button {
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    background-color: transparent;
+    width: 90px;
+    cursor: pointer;
+}
+
+.text-primary {
+    color: rgb(22, 188, 230);
+}
+.text-success {
+    color:rgb(74, 153, 107);
+}
+.text-danger {
+    color:rgb(245, 86, 58)
+}
+/* table css end */
