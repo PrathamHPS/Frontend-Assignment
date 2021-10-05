@@ -16,7 +16,8 @@ addtaskbtn.addEventListener("click", function(){
         else{
             taskObj = JSON.parse(webtask);
         }
-        taskObj.push(addtaskinputval);
+        
+        taskObj.push({'task_name':addtaskinputval, 'completeStatus':false});
         localStorage.setItem("localtask", JSON.stringify(taskObj));
     }
     // console.log(addtaskinput.value, taskObj, webtask);
@@ -39,15 +40,21 @@ function showtask(){
     let addedtasklist = document.getElementById('addedtasklist');
 
     taskObj.forEach((element, index) => {
+        if(element.completeStatus==true){
+            taskCompleteValue = `<td class="completed">${element.task_name}</td>`;
+        }else{
+            taskCompleteValue = `<td>${element.task_name}</td>`;
+        }
         // console.log(element, index)
         html += `<tr>
                     <td class="row-no">${index+1+'.'}</td>
                     
-                    <td id="complete${index}">${element}</td>
+                    ${taskCompleteValue}
+
                     <td><button type="button" onclick="edittask(${index})" class="text-primary"><i class="fa fa-edit"></i> Edit</button></td>
                     <td><button type="button" onclick="deleteitem(${index})" class="text-danger"><i class="fa fa-trash"></i> Delete</button></td>
                     
-                    <td><button type="button" id="done${index}" onclick="completetask(${index})" class="text-success"><i class="fa fa-check-square"></i> Complete</button></td>
+                    <td><button type="button" id=${index}  class="text-success"><i class="fa fa-check-square"></i> Complete</button></td>
                 </tr>`;
                 // <td><input type="checkbox" onclick="check(${index})" id="myCheck${index}"></td>
     });
@@ -64,7 +71,7 @@ function edittask(index){
 
     let webtask = localStorage.getItem("localtask");
     let taskObj = JSON.parse(webtask);
-    addtaskinput.value = taskObj[index];
+    addtaskinput.value = taskObj[index]["task_name"];
 
     addtaskbtn.style.display = "none";
     savetaskbtn.style.display = "block";
@@ -78,7 +85,12 @@ savetaskbtn.addEventListener('click', function(){
     let taskObj = JSON.parse(webtask);
 
     let saveindex = document.getElementById("saveindex").value;
-    taskObj[saveindex] = addtaskinput.value;
+    
+    for (keys in taskObj[saveindex]) {
+        if(keys == 'task_name'){
+            taskObj[saveindex].task_name = addtaskinput.value;
+        }
+      }
 
     // console.log(saveindex,taskObj[saveindex],addtaskinput.value);
     localStorage.setItem("localtask", JSON.stringify(taskObj));
@@ -118,23 +130,23 @@ deleteallbtn.addEventListener("click", function(){
 
 
 // js for task complete
-var count = 0;
+// var count = 0;
 
-function completetask(index) {
+// function completetask(index) {
     
-    let comp = "complete"+index;
-    let complete = document.getElementById(comp);
+//     let comp = "complete"+index;
+//     let complete = document.getElementById(comp);
     
-    count += 1;
-    if(count%2 != 0){
-        complete.style.textDecoration = "line-through";
-        count = 0;
-    }
-    else {
-        complete.style.textDecoration = "none";
-    }
+//     count += 1;
+//     if(count%2 != 0){
+//         complete.style.textDecoration = "line-through";
+//         count = 0;
+//     }
+//     else {
+//         complete.style.textDecoration = "none";
+//     }
     
-}
+// }
 
 // function check(index){
 //     let mycheck = "myCheck"+index;
@@ -163,3 +175,29 @@ function completetask(index) {
 //     localStorage.setItem("localtask", JSON.stringify(taskObj));
 //     showtask();
 // } 
+let addedtasklist = document.getElementById("addedtasklist");
+    addedtasklist.addEventListener("click", function(e){
+        let webtask = localStorage.getItem("localtask");
+        let taskObj = JSON.parse(webtask);
+        
+        let mytarget = e.target;
+        // console.log(mytarget, e, typeof(mytarget.classList[0]));
+        if(mytarget.classList[0] == 'text-success'){
+            let mytargetid = mytarget.getAttribute("id");
+            // let taskValue = taskObj[mytargetid]['task_name'];
+
+            for (keys in taskObj[mytargetid]) {
+                // console.log(keys, taskObj[mytargetid], mytargetid);
+                if(keys == 'completeStatus' && taskObj[mytargetid][keys]==true){
+                    taskObj[mytargetid].completeStatus = false;
+                   // taskObj[mytargetid] = {'task_name':taskValue, 'completeStatus':false};
+                }else if(keys == 'completeStatus' && taskObj[mytargetid][keys]==false){
+                    taskObj[mytargetid].completeStatus = true;
+                    //taskObj[mytargetid] = {'task_name':taskValue, 'completeStatus':true};
+                }
+              }
+                
+        localStorage.setItem("localtask", JSON.stringify(taskObj));
+        showtask();
+    }
+})
